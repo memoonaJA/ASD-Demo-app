@@ -40,12 +40,8 @@ public class ValidatorServlet extends HttpServlet {
                 session.setAttribute("user", user);
                 request.getRequestDispatcher("/main.jsp").include(request, response);
             } catch (NullPointerException ex) {
-                session.setAttribute("existErr", "User does not exist!");
+                session.setAttribute("existErr", "User does not exist!"+ex.getMessage());
                 request.getRequestDispatcher("main.jsp").include(request, response);
-            }
-            catch(Exception exp)
-            {
-                session.setAttribute("existErr", exp.getMessage());
             }
         }
     }
