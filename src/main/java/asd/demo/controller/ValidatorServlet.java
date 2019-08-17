@@ -43,6 +43,10 @@ public class ValidatorServlet extends HttpServlet {
                 session.setAttribute("existErr", "User does not exist!");
                 request.getRequestDispatcher("main.jsp").include(request, response);
             }
+            catch(Exception exp)
+            {
+                session.setAttribute("existErr", exp.getMessage());
+            }
         }
     }
 }
