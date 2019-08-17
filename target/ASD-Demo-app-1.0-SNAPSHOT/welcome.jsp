@@ -25,8 +25,9 @@
         
         String adminemail = (String)session.getAttribute("adminemail");
         String adminpass = (String)session.getAttribute("adminpassword");
-       // MongoDBConnector connector = new MongoDBConnector(adminemail, adminpass);
-       // if(connector != null ) connector.add(user); else out.print("Cannot add user");
+       
+        //MongoDBConnector connector = new MongoDBConnector(adminemail, adminpass);
+        //if(connector != null ) connector.add(user); else out.print("Cannot add user");
 
     %>
     <body style="background:none transparent;"> 
@@ -37,6 +38,8 @@
             <tr><td>Email: </td><td class="text"><%=email%></td></tr>
             <tr><td>Password: </td><td class="text"><%= password%></td></tr>
             <tr><td>Phone: </td><td class="text"><%=phone%></td></tr>
+            <tr><td>adminemail: </td><td class="text"><%=adminemail%></td></tr>
+            <tr><td>adminpassword: </td><td class="text"><%=adminpass%></td></tr>
         </table>       
     </body>
     <p class="p">Click <a href="main.jsp" class="link" target="_parent"> here </a> to go to main page.</p>
