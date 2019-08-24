@@ -30,7 +30,7 @@ public class Tester {
            Class<? extends WebDriver> driverClass = FirefoxDriver.class;
            WebDriverManager.getInstance(driverClass).setup(); 
            driver = driverClass.newInstance();
-           driver.get("https://maven-app-heroku.herokuapp.com/");						
+           //driver.get("https://maven-app-heroku.herokuapp.com/");						
            
            System.out.println("Given statement executed successfully");
        }
