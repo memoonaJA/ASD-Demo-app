@@ -20,7 +20,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
-public class stepDefinition {
+public class Tester {
     
      WebDriver driver;			
 

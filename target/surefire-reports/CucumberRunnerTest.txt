@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
-Test set: CucumberRunner
+Test set: CucumberRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.823 sec <<< FAILURE! - in CucumberRunner
-Website is deployed and loading(Website is deployed Properly)  Time elapsed: 2.06 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.934 sec <<< FAILURE! - in CucumberRunnerTest
+Website is deployed and loading(Website is deployed Properly)  Time elapsed: 2.36 sec  <<< ERROR!
 org.openqa.selenium.WebDriverException: 
 Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
